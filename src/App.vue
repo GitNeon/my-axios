@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import MyAxios from './components/my-axios.vue'
+import TestAxios from './components/test-axios.vue'
+import MyAxios from "./components/my-axios.vue";
 </script>
 
 <template>
+  <TestAxios v-if="false"></TestAxios>
   <MyAxios></MyAxios>
 </template>
 
